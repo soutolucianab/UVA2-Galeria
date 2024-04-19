@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #3e0016;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .galeria {
+    display: flex; /* Uso flex para organizar las imágenes */
+    flex-wrap: wrap; /* wrap para que las imagenes se envuelvan en la siguiente linea */
+    justify-content: space-around; /* para distribuir las imagenes */
+    align-items: center; /* centra las imagenes*/
+    margin: 20px;
+  }
+  
+  .image {
+    margin: 10px; /* Agrego margen alrededor de cada imagen */
+    flex: 1 0 200px; /* Tamaño máximo y mínimo de las imágenes */
+  }
+  
+  img {
+    max-width: 100%; /* Para que las imagenes no se salgan del container */
+    height: auto; /* Mantiene la proporción de aspecto de las imágenes */
+    display: block; /* Elimina el espacio en blanco debajo de las imágenes */
+  }
+  
+  footer {
+    background-color: #3e0016;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
